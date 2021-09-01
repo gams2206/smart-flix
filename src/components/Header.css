@@ -1,0 +1,40 @@
+header {
+    position:fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    transition: all ease 0.3s;
+}
+
+header.black {
+    background-color: #141414;
+    opacity: 0.9;
+}
+
+.header--logo {
+    height: 25px;
+    margin-top: -30px;
+}
+
+.header--logo h1 {
+    font-size: 40px;
+    padding-left: 30px;
+    margin-top: -5px;
+    color: #ff0000;
+}
+
+.header--user {
+    height: 50px;
+}
+
+.header--user img {
+    height: 100%;
+    border-radius: 7px;
+    margin-right: 30px;
+}
