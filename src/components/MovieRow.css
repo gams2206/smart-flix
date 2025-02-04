@@ -35,7 +35,7 @@
 .movieRow--left,
 .movieRow--right {
     position: absolute;
-    width: 40px;
+    width: 60px;
     height: 382px;
     margin-top: 0px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -51,12 +51,10 @@
 
 .movieRow--left {
     left: 0;
-    width: 72px;
 }
 
 .movieRow--right {
     right: 0;
-    width: 72px;
 }
 
 .movieRow:hover .movieRow--left,
